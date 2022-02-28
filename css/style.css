@@ -1,0 +1,180 @@
+body{
+    background-image: url(../images/backimage.png);
+}
+.icon img{
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid #1b361b;
+    margin: 0px 10px 0px 0px;
+}
+.hom{
+    font-size: 15px;
+    margin-right: 10px;
+}
+.bar{
+    background-color:rgba(120, 233, 218, 0.315) ;
+}
+.bar p {
+    display: inline-block;
+    vertical-align: middle;
+}
+.menu-btn {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    z-index: 90;
+    background-color: #949494c2;
+}
+.menu-btn span,
+.menu-btn span:before,
+.menu-btn span:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 25px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    position: absolute;
+}
+.menu-btn span:before {
+    bottom: 8px;
+}
+.menu-btn span:after {
+    top: 8px;
+}
+#menu-btn-check:checked ~ .menu-btn span {
+    background-color: rgba(255, 255, 255, 0);
+}
+#menu-btn-check:checked ~ .menu-btn span::before {
+    bottom: 0;
+    transform: rotate(45deg);
+}
+#menu-btn-check:checked ~ .menu-btn span::after {
+    top: 0;
+    transform: rotate(-45deg);
+}
+#menu-btn-check {
+    display: none;
+}
+.menu{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 100%;
+    z-index: 80;
+    background-color: #646464ee;
+    transition: all 0.3s;
+}
+.menu ul{
+    padding: 70px 10px 0;
+}
+.menu ul li{
+    border-bottom: solid 1px #ffffff;
+    list-style: none;
+}
+.menu ul li a{
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    box-sizing: border-box;
+    color: black;
+    text-decoration: none;
+    padding: 9px 15px 10px 0;
+    position: relative;
+}
+.menu ul li a::before{
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-top: solid 2px #ffffff;
+    border-right: solid 2px #ffffff;
+    transform: rotate(45deg);
+    position: absolute;
+    right: 11px;
+    top: 16px;
+}
+#menu-btn-check:checked ~ .menu{
+    left: 0;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(241, 173, 85, 0.315)
+}
+.catch{
+    text-shadow:1px 1px 0 #fff;
+}
+.catch1{
+    font-size: 4vw;
+    color: rgb(255, 123, 0);
+}
+.catch2{
+    font-size: min(3vw, 20px);
+}
+.tomoyaa img{
+    width: 25vw;
+    max-width: 250px;
+    filter: drop-shadow(4px 4px 4px white);
+}  
+@media (min-width:767px) {
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+}
+.iron img{
+    width: 35vw;
+    max-width: 350px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 10px 10px 10px 10px;
+}
+.prof p{
+    margin:0 auto;
+    max-width: 500px;
+}
+.prof{
+    margin-bottom: 30px;
+}
+.snsicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.snsicon img{
+    width: 50px;
+    margin: 5px 4vw 10px 4vw;
+}
+.linka:hover{
+    background-color: gold;
+}
+a{
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: green;
+  }
+.copy{
+    background-color:rgba(120, 233, 218, 0.315) ;
+}
+hr{
+    color: blue;
+}
+* {
+    font-family: 'Hiragino Kaku Gothic Pro';
+  }
+*{
+    text-align: center;
+}
+*{
+    font-family: "fantasy","Impact","arial black","MS Sans Serif","arial","ヒラギノ丸ゴ ProN";
+}
+    
