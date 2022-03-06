@@ -1,6 +1,4 @@
-body{
-    background-image: url(../images/backimage.png);
-}
+/* HEADER */
 .icon img{
     width: 50px;
     border-radius: 50%;
@@ -102,6 +100,8 @@ body{
 #menu-btn-check:checked ~ .menu{
     left: 0;
 }
+
+/* HOME */
 .flex{
     display: flex;
     justify-content: center;
@@ -128,10 +128,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-}  
+    }  
 }
 .iron img{
-    width: 35vw;
+    width: 50vw;
     max-width: 350px;
     border-radius: 10px;
     border: 2px solid black;
@@ -143,6 +143,90 @@ body{
 }
 .prof{
     margin-bottom: 30px;
+    text-shadow:1px 1px 0 #fff;
+}
+
+/* ZOOMPARTY */
+.zoompartyphoto img{
+    width: 50vw;
+    max-width: 350px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 10px 10px 10px 10px;
+}
+.party p{
+    margin:0 auto;
+    max-width: 500px;
+}
+.party{
+    margin-bottom: 30px;
+    text-shadow:1px 1px 0 #fff;
+}
+
+/* CLASSES */
+.classesphoto img{
+    width: 50vw;
+    max-width: 350px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 10px 10px 10px 10px;
+}
+.classes p{
+    margin:0 auto;
+    max-width: 500px;
+}
+.classes{
+    margin-bottom: 30px;
+    text-shadow:1px 1px 0 #fff;
+}
+
+/* 日本語を教えてみたい */
+.teachphoto img{
+    width: 50vw;
+    max-width: 350px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 10px 10px 10px 10px;
+}
+.teach p{
+    margin:0 auto;
+    max-width: 500px;
+}
+.teach{
+    margin-bottom: 30px;
+    text-shadow:1px 1px 0 #fff;
+}
+
+/* SNS */
+.youtube{
+    color: red;
+    margin-bottom: 0px;
+}
+.video{
+    max-width: 560px;
+    width: 100%;
+    margin: 0px auto;
+}
+.video iframe{
+    border-radius: 10px;
+}
+.twitter{
+    color: rgb(0, 162, 255);
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.instagram{
+    color: rgb(255, 0, 179);
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.snsinsta img{
+    width: 90vw;
+    max-width: 500px;
+    margin: 5px 0 10px 0;
+    align-items: center;
+    border-radius: 5px;
+    border: 3px solid rgb(255, 0, 179);
 }
 .snsicon{
     display: flex;
@@ -152,6 +236,25 @@ body{
 .snsicon img{
     width: 50px;
     margin: 5px 4vw 10px 4vw;
+}
+
+/* ALL */
+.contact {
+    font-size: 30px;
+    padding: 5px 10px 5px 10px;
+    margin: 20px 30px 20px 30px;
+    display:inline-block;
+    border: double 5px #4ec4d3;
+    border-radius: 5px;
+    background-color: rgba(228, 235, 140, 0.521);
+    text-shadow:2px 2px 0 #fff;
+}
+.contact p {
+    margin: 0 0 0 0; 
+    padding: 0;
+}
+.contact:hover,a:active{
+    background-color: rgba(0, 153, 255, 0.178);
 }
 .linka:hover{
     background-color: gold;
@@ -167,6 +270,9 @@ a:link, a:visited {
 }
 hr{
     color: blue;
+}
+body{
+    background-image: url(../images/backimage.png);
 }
 * {
     font-family: 'Hiragino Kaku Gothic Pro';
